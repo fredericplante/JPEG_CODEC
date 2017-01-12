@@ -12,7 +12,7 @@ without using any external like SDcard. But there is a cost to that. By looking 
 it become obvious that it's impossible to hook a 16 bits data bus TFT module, since the ESP8266 only 
 has 11 GPIOs.
 
-<img src="https://github.com/fredericplante/JPEGDecoder/blob/master/Site_picture/ESP8266-12.jpg" width="25%"/>
+<img src="./Site_picture/ESP8266-12.jpg" width="25%"/>
 
 The solution is fairly simple, SPI TFT. The ESP8266 is clocked at 80mhz to 160mhz, so it can achieve 
 serial data transfer that can compeate with paralele process, offered by the original librarys. When 
