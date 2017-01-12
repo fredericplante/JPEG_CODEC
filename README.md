@@ -1,7 +1,7 @@
 #Arduino JPEGDecoder library( reBrewed for ESP8266)
 ======================
 
-*Nota. When your done reading this Readme and it's links, feel free to check the [fun section](https://github.com/fredericplante/JPEGDecoder/tree/master/fun_section)
+*Nota. When your done reading this Readme and it's links, feel free to check the [fun section](/fun_section)
 
 ##The ESP8266
 
@@ -19,7 +19,7 @@ serial data transfer that can compeate with paralele process, offered by the ori
 set to 160Mhz the ESP8266 can decode a 320x240 JPEG and send it to the screen in less or about 500ms. 
 Meaning it can show about 2 pictures per second.
 
-<img src="https://github.com/fredericplante/JPEGDecoder/blob/master/Site_picture/ILI9341.jpg" width="100%"/>
+<img src="./Site_picture/ILI9341.jpg" width="100%"/>
 
 
 The SerialCsvOut example also benefite from this uC. Well the ESP8266 has a large Serial buffer 
@@ -29,7 +29,7 @@ Bodmer's original job was excelent, for the MEGA like infrastructure, fully comp
 version 1.6.8 of the Arduino IDE, but need some workaround and fixs to make it fully work with 
 the ESP8266 infrastructure. 
 
-A rich set of [examples](https://github.com/fredericplante/JPEGDecoder/tree/master/examples) that actually 
+A rich set of [examples](./examples) that actually 
 works, and technically the whole code is still pretty much the same, will compile the same on Adruino Mega 
 and Due, the only diffence is that it also work it ESP8266.
 
@@ -45,7 +45,7 @@ that is on a touch TFT. Also, according to the documentation, *jpgd.cpp decompre
 The fact is that they made Pico jpeg to run on small infrastructure like AVR.
 
 
-**Some section are under construction, <img src="https://github.com/fredericplante/JPEGDecoder/blob/master/Site_picture/construction.jpg" width="10%"/> Thank you
+**Some section are under construction, <img src="./Site_picture/construction.jpg" width="10%"/> Thank you
 for your patience.
 
 ##To fix:(contribution welcome)
@@ -60,9 +60,6 @@ for your patience.
   + Downgrade the color of each pixel to 8bits color(RRRGGGBB) to make it compatible with
   the [DueVGA library from Stimmer](https://github.com/fredericplante/DueVGA).
 
-  - (DONE)Get it to pick up the JPEG from Serial port to deal with OV528 like, 
-  [Serial JPEG, cameras](https://github.com/fredericplante/Grove_Serial_Camera_Kit).(DONE)
-
   + Get it to pick up the JPEG live from Web socket.
 
   + At some point, I will have to detach from the Bodmers original libraries to make mine 
@@ -70,7 +67,8 @@ for your patience.
 
 ##Done:
 
-  + *.h *.cpp And Keyword garnament files moved to ./scr folder.
+  - (DONE)Get it to pick up the JPEG from Serial port to deal with OV528 like, 
+  [Serial JPEG, cameras](https://github.com/fredericplante/Grove_Serial_Camera_Kit).(DONE)
 
 #Below, the original Readmes from Bodmer and Makoto
 
