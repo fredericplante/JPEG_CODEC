@@ -54,21 +54,23 @@ for your patience.
 
 ##To do:
 
-  + Implimanting an algorytm that place part of the JPEG in a XY position on the TFT, to be able to fully view 
-  JPEG that are bigger then the TFT, by a V/H scrolling process.
+  + Implimante an algorytm that place part of the JPEG in a XY position on the TFT, to be able to view 
+  JPEG files that have higher resolution then the TFT's resolution , by a V/H scrolling process.
 
-  + Downgrade the color of each pixel to 8bits color(RRRGGGBB) to make it compatible with
-  the [DueVGA library from Stimmer](https://github.com/fredericplante/DueVGA).
+  + Make an option to Downgrade the color value of each pixel to 8bits color(3R3G2B), to make it compatible with
+  the [Stimmer's DueVGA libraries](https://github.com/fredericplante/DueVGA).
 
   + Get it to pick up the JPEG live from Web socket.
-
-  + At some point, I will have to detach from the Bodmers original libraries to make mine 
-  more specific to the ESP8266 infrastructure, Altouth I really hope to work with Bodmer again.
-
+  
+  + Rebuild the library structure so SDcard, SPIFFS, and other source of JPEG files container can coexist.
+  
 ##Done:
 
-  - (DONE)Get it to pick up the JPEG from Serial port to deal with OV528 like, 
-  [Serial JPEG, cameras](https://github.com/fredericplante/Grove_Serial_Camera_Kit).(DONE)
+  - Get it to pick up the JPEG from Serial port to deal with OV528 like, 
+  [Serial JPEG, cameras](https://github.com/fredericplante/Grove_Serial_Camera_Kit).
+
+  - At some point, I will have to detach from the Bodmers original libraries to make mine 
+  more specific to the ESP8266 infrastructure, Altouth I really hope to work with Bodmer again.
 
 #Below, the original Readmes from Bodmer and Makoto
 
